@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/white"
+              android:orientation="vertical"
+              tools:context=".MainActivity">
+
+    <include layout="@layout/dmmgp_toolbar_menu_layout"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/image_horizontal_margin"
+                android:layout_marginRight="@dimen/image_horizontal_margin"
+                android:layout_marginTop="@dimen/image_vertical_margin"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/dmmgp_logo"/>
+
+            <TextView
+                android:id="@+id/versionTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/view_vertical_margin_half"
+                android:text="Nutaku SDK Ver.1.0.0"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="@dimen/view_vertical_margin_three_quarter"
+                android:background="@color/actionbar_border"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/view_horizontal_margin"
+                android:layout_marginRight="@dimen/view_horizontal_margin"
+                android:layout_marginTop="@dimen/view_vertical_margin"
+                android:text="The Apache License"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/view_horizontal_margin"
+                android:layout_marginRight="@dimen/view_horizontal_margin"
+                android:layout_marginTop="@dimen/view_vertical_margin"
+                android:text="@string/apache_notices_title"
+                android:textColor="@android:color/black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/view_horizontal_margin"
+                android:layout_marginRight="@dimen/view_horizontal_margin"
+                android:layout_marginTop="@dimen/view_vertical_margin"
+                android:layout_marginBottom="@dimen/view_vertical_margin_half"
+                android:paddingLeft="@dimen/view_vertical_padding"
+                android:text="@string/apache_notices_list"
+                android:textColor="@android:color/black"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="@dimen/view_horizontal_margin2"
+                android:layout_marginRight="@dimen/view_horizontal_margin2"
+                android:background="@android:color/black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/view_horizontal_margin"
+                android:layout_marginRight="@dimen/view_horizontal_margin"
+                android:layout_marginTop="@dimen/view_vertical_margin"
+                android:text="@string/apache_license"
+                android:textColor="@android:color/black"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

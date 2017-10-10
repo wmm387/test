@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+                android:oneshot="false" >
+    <item android:duration="80">
+        <shape android:shape="rectangle" >
+            <gradient
+                android:angle="180"
+                android:centerY="1.0"
+                android:endColor="@color/progressbar_blank"
+                android:centerColor="@color/progressbar_meter"
+                android:startColor="@color/progressbar_blank"
+                android:type="linear" />
+        </shape>
+    </item>
+    <item android:duration="80">
+        <shape android:shape="rectangle" >
+            <gradient
+                android:angle="180"
+                android:centerY="0.8"
+                android:endColor="@color/progressbar_blank"
+                android:centerColor="@color/progressbar_meter"
+                android:startColor="@color/progressbar_blank"
+                android:type="linear" />
+        </shape>
+    </item>
+    <item android:duration="80">
+        <shape android:shape="rectangle" >
+            <gradient
+                android:angle="180"
+                android:centerY="0.6"
+                android:endColor="@color/progressbar_blank"
+                android:centerColor="@color/progressbar_meter"
+                android:startColor="@color/progressbar_blank"
+                android:type="linear" />
+        </shape>
+    </item>
+    <item android:duration="80">
+        <shape android:shape="rectangle" >
+            <gradient
+                android:angle="180"
+                android:centerY="0.4"
+                android:endColor="@color/progressbar_blank"
+                android:centerColor="@color/progressbar_meter"
+                android:startColor="@color/progressbar_blank"
+                android:type="linear" />
+        </shape>
+    </item>
+    <item android:duration="80">
+        <shape android:shape="rectangle" >
+            <gradient
+                android:angle="180"
+                android:centerY="0.2"
+                android:endColor="@color/progressbar_blank"
+                android:centerColor="@color/progressbar_meter"
+                android:startColor="@color/progressbar_blank"
+                android:type="linear" />
+        </shape>
+    </item>
+    <item android:duration="100">
+        <shape android:shape="rectangle" >
+            <gradient
+                android:angle="180"
+                android:centerY="0.0"
+                android:endColor="@color/progressbar_blank"
+                android:centerColor="@color/progressbar_meter"
+                android:startColor="@color/progressbar_blank"
+                android:type="linear" />
+        </shape>
+    </item>
+
+    <item android:duration="130">
+        <shape android:shape="rectangle" >
+            <gradient
+                android:angle="180"
+                android:centerY="0.2"
+                android:endColor="@color/progressbar_blank"
+                android:centerColor="@color/progressbar_meter"
+                android:startColor="@color/progressbar_blank"
+                android:type="linear" />
+        </shape>
+    </item>
+    <item android:duration="130">
+        <shape android:shape="rectangle" >
+            <gradient
+                android:angle="180"
+                android:centerY="0.4"
+                android:endColor="@color/progressbar_blank"
+                android:centerColor="@color/progressbar_meter"
+                android:startColor="@color/progressbar_blank"
+                android:type="linear" />
+        </shape>
+    </item>
+    <item android:duration="130">
+        <shape android:shape="rectangle" >
+            <gradient
+                android:angle="180"
+                android:centerY="0.6"
+                android:endColor="@color/progressbar_blank"
+                android:centerColor="@color/progressbar_meter"
+                android:startColor="@color/progressbar_blank"
+                android:type="linear" />
+        </shape>
+    </item>
+    <item android:duration="130">
+        <shape android:shape="rectangle" >
+            <gradient
+                android:angle="180"
+                android:centerY="0.8"
+                android:endColor="@color/progressbar_blank"
+                android:centerColor="@color/progressbar_meter"
+                android:startColor="@color/progressbar_blank"
+                android:type="linear" />
+        </shape>
+    </item>
+    <item android:duration="130">
+        <shape android:shape="rectangle" >
+            <gradient
+                android:angle="180"
+                android:centerY="1.0"
+                android:endColor="@color/progressbar_blank"
+                android:centerColor="@color/progressbar_meter"
+                android:startColor="@color/progressbar_blank"
+                android:type="linear" />
+        </shape>
+    </item>
+
+</animation-list>

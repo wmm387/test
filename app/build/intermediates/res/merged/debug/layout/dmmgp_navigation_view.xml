@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.NavigationView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/navigation_view"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/drawerGray">
+
+        <RelativeLayout
+            android:id="@+id/drawer_dmmgp_logo"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="@dimen/navigation_view_divider"
+            android:clickable="true"
+            android:background="@drawable/drawer_list_item">
+
+            <ImageView
+                android:id="@+id/drawer_store_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/drawer_dmmgp_logo" />
+        </RelativeLayout>
+
+        <ScrollView
+            android:id="@+id/drawer_menu_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/drawer_dmmgp_logo"
+            android:layout_marginBottom="@dimen/navigation_view_divider"
+            android:background="@color/white">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/drawer_gold_store"
+                    style="@style/drawer_item_button"
+                    android:layout_alignParentTop="true"
+                    android:text="@string/menu_gold_store"
+                    android:drawableLeft="@drawable/drawer_icon_gold_store"/>
+
+                <Button
+                    android:id="@+id/drawer_faq"
+                    style="@style/drawer_item_button"
+                    android:layout_below="@id/drawer_gold_store"
+                    android:text="@string/menu_faq"
+                    android:drawableLeft="@drawable/drawer_icon_faq"/>
+
+                <Button
+                    android:id="@+id/drawer_game_support"
+                    style="@style/drawer_item_button"
+                    android:layout_below="@id/drawer_faq"
+                    android:text="@string/menu_game_support"
+                    android:drawableLeft="@drawable/drawer_icon_game_support"/>
+
+                <Button
+                    android:id="@+id/drawer_website_contact"
+                    style="@style/drawer_item_button"
+                    android:layout_below="@id/drawer_game_support"
+                    android:text="@string/menu_website_contact"
+                    android:drawableLeft="@drawable/drawer_icon_contact"/>
+
+                <Button
+                    android:id="@+id/drawer_terms"
+                    style="@style/drawer_item_button"
+                    android:layout_below="@id/drawer_website_contact"
+                    android:text="@string/menu_terms"
+                    android:drawableLeft="@drawable/drawer_icon_terms"/>
+
+                <Button
+                    android:id="@+id/drawer_about_dmmgp"
+                    style="@style/drawer_item_button"
+                    android:layout_below="@id/drawer_terms"
+                    android:text="@string/menu_about_dmmgp"
+                    android:drawableLeft="@drawable/drawer_icon_about"/>
+
+                <FrameLayout
+                    android:id="@+id/drawer_update_divider"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/drawerGray"
+                    android:layout_below="@id/drawer_about_dmmgp"
+                    android:visibility="gone"/>
+
+                <Button
+                    android:id="@+id/drawer_update"
+                    style="@style/drawer_item_button"
+                    android:gravity="center"
+                    android:textColor="@color/red"
+                    android:textStyle="bold"
+                    android:paddingLeft="0dp"
+                    android:layout_below="@id/drawer_update_divider"
+                    android:text="@string/update_title"
+                    android:visibility="gone"/>
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/drawer_menu_scroll"
+            android:background="@color/white"
+            />
+
+    </RelativeLayout>
+
+</android.support.design.widget.NavigationView>

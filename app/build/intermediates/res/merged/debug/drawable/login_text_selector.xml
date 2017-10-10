@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- ボタンが押されたときの定義 -->
+    <item android:drawable="@drawable/login_tap_text"
+          android:state_pressed="true"/>
+
+    <!-- ボタンが押されていないときの定義 -->
+    <item android:drawable="@drawable/login_text"
+          android:state_pressed="false"/>
+</selector>

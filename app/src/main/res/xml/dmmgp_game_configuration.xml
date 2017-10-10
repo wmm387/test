@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<properties>
+    <appId>26359</appId>
+    <gameName>Minitary Girls</gameName>
+    <consumerKey>AZ98PAdm62WrVljE</consumerKey>
+    <consumerSecret>TdWy_nt?QFmwf#PJYOIAaMP?DApmNAVn</consumerSecret>
+    <mainActivity>com.init.army.UnityPlayerNativeActivity</mainActivity>
+    <environment>sandbox</environment>
+    <oauthSignaturePublicKey></oauthSignaturePublicKey>
+</properties>
